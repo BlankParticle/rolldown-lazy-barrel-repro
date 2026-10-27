@@ -1,0 +1,13 @@
+{
+  "name": "rolldown-lazy-barrel-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node build.mjs"
+  },
+  "dependencies": {
+    "barrel": "link:./packages/barrel",
+    "lib": "link:./packages/lib",
+    "rolldown": "1.2.15"
+  }
+}

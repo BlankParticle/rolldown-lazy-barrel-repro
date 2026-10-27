@@ -1,0 +1,6 @@
+{
+  "name": "barrel",
+  "type": "module",
+  "sideEffects": false,
+  "exports": { ".": "./index.js" }
+}

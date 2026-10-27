@@ -1,0 +1,7 @@
+{
+  "name": "lib",
+  "type": "module",
+  "sideEffects": false,
+  "exports": { "./mod.js": "./mod.js" },
+  "dependencies": { "barrel": "link:../barrel" }
+}
